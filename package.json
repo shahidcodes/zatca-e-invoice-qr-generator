@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest .",
     "build": "tsc",
-    "release": "standard-version"
+    "release": "standard-version && git push --follow-tags origin main && npm publish --access public"
   },
   "keywords": [
     "E-invoicing",
