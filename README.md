@@ -23,8 +23,8 @@ npm install @zatca/qr
 
 ## Usage
 
-```sh
-import { generateQR } from '@zatca/qr'
+```ts
+import { generateQR } from "@zatca/qr";
 
 const testData: EInvoiceFields = {
   sellerName: "Shahid",
@@ -35,8 +35,6 @@ const testData: EInvoiceFields = {
 };
 
 const qrBuffer = await generateQR(testData, { format: "buffer" });
-
-
 ```
 
 ## Run tests
@@ -56,4 +54,4 @@ npm run test
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](/issues). You can also take a look at the [contributing guide](/issues).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/shahidcodes/zatca-e-invoice-qr-generator/issues).
