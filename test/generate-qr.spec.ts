@@ -1,6 +1,5 @@
-import { createQRData, EInvoiceFields, generateQR } from "../src";
 import * as fs from "node:fs";
-import { Stream } from "node:stream";
+import { EInvoiceFields, generateQR } from "../src";
 
 const testData: EInvoiceFields = {
   sellerName: "Shahid",
@@ -10,7 +9,6 @@ const testData: EInvoiceFields = {
   vatTotal: "15.00",
 };
 const filePath = "./file.png";
-const filePathStream = "./fileStream.png";
 
 test("should generate buffer qr code", async () => {
   const qrBuffer = await generateQR(testData, { format: "buffer" });

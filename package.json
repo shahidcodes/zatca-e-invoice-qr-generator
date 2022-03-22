@@ -3,6 +3,10 @@
   "version": "1.1.0",
   "description": "Generate E-Invoice Compatibel QR Code",
   "main": "dist/index.js",
+  "private": false,
+  "files": [
+    "dist/**/*"
+  ],
   "scripts": {
     "test": "jest .",
     "build": "tsc",
