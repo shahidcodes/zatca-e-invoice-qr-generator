@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/shahidcodes/zatca-e-invoice-qr-generator/compare/v1.3.1...v1.4.0) (2022-03-22)
+
+
+### Features
+
+* add declaration file ([40c51da](https://github.com/shahidcodes/zatca-e-invoice-qr-generator/commit/40c51da72063ae7b067648b8de2677f48c981ea1))
+
+
+### Bug Fixes
+
+* tsconfig json ([8cf1d54](https://github.com/shahidcodes/zatca-e-invoice-qr-generator/commit/8cf1d5409a346e78f58e753d4c7c18c9a19029b9))
+
 ### [1.3.1](https://github.com/shahidcodes/zatca-e-invoice-qr-generator/compare/v1.3.0...v1.3.1) (2022-03-22)
 
 ## [1.3.0](https://github.com/shahidcodes/zatca-e-invoice-qr-generator/compare/v1.2.0...v1.3.0) (2022-03-22)
